@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Input, InputContainer, Logo, Search } from "./styled";
-
-const logo = require("../../../../assets/images/H-logo.svg");
+const logo = require("../../../../assets/images/Group.png");
 const search = require("../../../../assets/icons/search.png");
 
 
