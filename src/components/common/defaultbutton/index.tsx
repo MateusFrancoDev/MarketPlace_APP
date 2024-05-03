@@ -5,12 +5,12 @@ type props = {
   buttonText: string;
   buttonType: string;
   marginVertical: number;
-  buttonHendle: Function;
+  buttonHandle: Function;
 }
 
-const DefaultButton = ({buttonText, buttonType, marginVertical, buttonHendle}: props) => {
+const DefaultButton = ({buttonText, buttonType, marginVertical, buttonHandle}: props) => {
   return (
-    <ButtonContainer type={buttonType} marginVertical={marginVertical} onPress={() => {buttonHendle}}>
+    <ButtonContainer type={buttonType} marginVertical={marginVertical} onPress={() => {buttonHandle}}>
       <ButtonText>{buttonText}</ButtonText>
     </ButtonContainer>
   )

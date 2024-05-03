@@ -18,7 +18,7 @@ const Login = () => {
 
   return (
     <Container>
-      <BackIcon marginLeft={20} />
+      <BackIcon marginLeft={30} />
       <Logo source={logo} />
       <InputContainer>
       <Input placeholder=" Email" placeholderTextColor="#C0C0C1" />
@@ -27,7 +27,7 @@ const Login = () => {
       <Input placeholder=" Senha" placeholderTextColor="#C0C0C1" secureTextEntry={true}/>
       </InputContainer>
       <ForgetPassword>Esqueceu sua senha ?</ForgetPassword>
-      <DefaultButton buttonText="Fazer login" buttonType="primary" marginVertical={40} buttonHendle={() => {handleLogin()}} />
+      <DefaultButton buttonText="Fazer login" buttonType="primary" marginVertical={40} buttonHandle={() => {handleLogin()}} />
       <RegisterText onPress={() => {
         navigation.navigate("Register");
       }}>Você ainda não tem conta ? <Bold>Registre-se</Bold> </RegisterText>
