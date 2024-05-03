@@ -29,7 +29,7 @@ const Login = () => {
       <ForgetPassword>Esqueceu sua senha ?</ForgetPassword>
       <DefaultButton buttonText="Fazer login" buttonType="primary" marginVertical={40} buttonHendle={() => {handleLogin()}} />
       <RegisterText onPress={() => {
-        navigation.navigate("Home");
+        navigation.navigate("Register");
       }}>Você ainda não tem conta ? <Bold>Registre-se</Bold> </RegisterText>
       <CompanyLogo source={company} />
     </Container>
